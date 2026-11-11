@@ -1,0 +1,24 @@
+{
+	"geode": "5.10.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "mabil.diamond-max",
+	"name": "Diamond Max",
+	"version": "v1.0.0",
+	"developer": "Mabil",
+	"description": "메인 메뉴에서 버튼 누르면 다이아가 999,999,999개!",
+	"settings": {
+		"amount": {
+			"name": "다이아 개수",
+			"description": "버튼 누르면 이 개수로 바뀜",
+			"type": "int",
+			"default": 999999999,
+			"min": 0,
+			"max": 2147483647
+		}
+	}
+}
